@@ -4,7 +4,6 @@ package com.example.aaaa;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -70,7 +69,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         public void bind(Item item) {
             nombre.setText(item.getNombre());
             descripcion.setText(item.getDescripcion());
-
         }
     }
 }
